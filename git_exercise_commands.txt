@@ -43,5 +43,11 @@
 12. Make some commits on "feature1".
   a new file file3 is created and commited.
 
-13. Make some commits on "feature2"
-  a 
+13. Make some commits on "master"
+  a new file file3 is created and committed.
+
+14. merge branch "feature1" in "master"
+  git merge feature1
+
+15. create branch "feature2"
+  git branch feature2
