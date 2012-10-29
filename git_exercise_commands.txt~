@@ -10,4 +10,7 @@
   touch file2
 
 3. commit changes
-
+  git add .
+  git commit -m "files added"
+  git pull
+  git push origin master
