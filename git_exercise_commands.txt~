@@ -26,3 +26,5 @@
   git status - file is added to commit
   git reset HEAD file2 - git removed to commit from staging area
   git checkout -- file2 - changes are reverted
+
+

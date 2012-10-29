@@ -27,4 +27,21 @@
   git reset HEAD file2 - git removed to commit from staging area
   git checkout -- file2 - changes are reverted
 
+9. Display all commits
+  git log
 
+10. display a particular commit
+  git log --grep="first commit"
+
+11. create branches called "feature1" and "feature2" from master. 
+  git branch feature1
+  git branch feature2
+
+11 . Delete branch "feature2".
+  git branch -d feature2
+
+12. Make some commits on "feature1".
+  a new file file3 is created and commited.
+
+13. Make some commits on "feature2"
+  a 
