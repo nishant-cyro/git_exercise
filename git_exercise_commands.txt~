@@ -14,3 +14,15 @@
   git commit -m "files added"
   git pull
   git push origin master
+
+5. create changes and revert those changes using git when those changes are not added to staging are
+  Changes done to a file named file2
+  git checkout -- file2
+
+6. create changes and revert those changes after adding changes to staging area
+
+  changes done to a filename file2
+  git add . - file is added to staging area
+  git status - file is added to commit
+  git reset HEAD file2 - git removed to commit from staging area
+  git checkout -- file2 - changes are reverted
