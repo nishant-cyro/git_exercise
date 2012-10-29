@@ -1,4 +1,14 @@
 1. Creating Repository
   git init
+  git add .
   git commit -m "first commit"
   git remote add origin https://github.com/nish1603/git_exercise.git
+  git push -u origin master
+
+2. Make some changes -- add some files, change content of some files
+  touch file1
+  touch file2
+
+3. commit changes
+  git add .
+  git commit -m "files added"
