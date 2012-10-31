@@ -2,8 +2,6 @@
   git init
   git add .
   git commit -m "first commit"
-  git remote add origin https://github.com/nish1603/git_exercise.git
-  git push -u origin master
 
 2. Make some changes -- add some files, change content of some files
   touch file1
@@ -50,3 +48,26 @@
   git merge feature1
 
 15. create branch "feature2"
+  git branch feature2
+
+15. Make some commits on "feature2".
+  a new file4 is created
+
+16.Make some commits on branch "master".
+  file4 is created.
+
+17. rebase branch "master" in "feature2" (make some conflicts by changing same file on same line in both the branches) .
+  git rebase master
+
+18. 
+Merge - merges both the file and show the changes specificely.
+
+rebase - shows the changes done by the current branch.
+
+19. Use git stash
+  git stash
+
+20.create a repository on github for your working repository and push changes on remote repository.
+  git remote add origin https://github.com/nish1603/git_exercise.git
+  git push -u origin master
+
